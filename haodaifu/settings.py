@@ -70,8 +70,8 @@ ROBOTSTXT_OBEY = False
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'haodaifu.pipelines.HaodaifuPipeline': 300,
-    # 'haodaifu.pipelines.MongoPipeline': 300,
+    # 'haodaifu.pipelines.HaodaifuPipeline': 300,
+    'haodaifu.pipelines.MongoPipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
